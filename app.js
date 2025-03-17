@@ -6,20 +6,41 @@
 
 /*let a = Number(prompt("Enter the value of 'a'"))
 
-let b = Number(prompt("Enter the value of 'b'"))
+let b = Number(prompt("Enter the power of 'b'"))
 
-function powerRaised(a , b) {
-    document.write("<h4>Value of 'a':</h4>" , a , "<h4>Power Raised:</h4>" , a*5 ,  "<br/>" , 
-    "<h4>Value of 'b':</h4>" , b , "<h4>Power Raised:</h4>" , b*5)
-}
+function power(a , b) {
+    let result = a ** b
+    return result
+  }
+document.write(a + "<sup>" , b , "</sup>" + " is " , power(a , b)) 
 
-powerRaised(a , b)*/
+power(a , b)*/
 
 // QUESTION 2
 // Any year is entered through the keyboard. Write a function to
 // determine whether the year is a leap year or not.
 
 // ANSWER
+
+/*let userYear = prompt("Enter a year and check it's leap year or not")
+
+switch (userYear) {
+    case "2012":
+        alert("Leap year")
+        break;
+    
+    case "2016":
+        alert("Leap year")
+        break;
+    
+    case "2020":
+        alert("Leap year")
+        break;
+    
+    default:
+        alert("Not a leap year")
+        break;
+}*/
 
 // QUESTION 3
 // If the lengths of the sides of a triangle are denoted by a, b, and
