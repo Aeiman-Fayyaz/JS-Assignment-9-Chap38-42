@@ -78,24 +78,42 @@ sidesOfTriangle(a, b ,c)*/
 
 // ANSWER
 
-// function mainFunction() {
-//     let subj1 = 85
+/*let subjName1 = prompt("Enter your first subject name")
+let subjName2 = prompt("Enter your second subject name")
+let subjName3 = prompt("Enter your third subject name")
 
-//     let subj2 = 61
+let subj1 = Number(prompt("Enter your subjects marks"))
 
-//     let subj3 = 56
+let subj2 = Number(prompt("Enter your subjects marks"))
 
-//     let totalNum = 300
+let subj3 = Number(prompt("Enter your subjects marks"))
 
-//     let average = avr(subj1 , subj2 , subj3)
+let totalNum = Number(prompt("Enter your total marks"))
 
-//     let percentage = per(subj1 , subj2 , subj3 ,totalNum)
+function mainFunction() {
 
-//     document.write("<h4>Average:</h4>" , average , "<br/>" , "<h4>Percentage:</h4>" , percentage)
+    let avr = average(subj1 , subj2 , subj3)
 
-// }
+    let perce = percentage(subj1 , subj2 , subj3 ,totalNum)
 
-// mainFunction()
+    document.write("<h2>Marksheet:</h2>" , "<h5>Subject Name:</h5>" , subjName1 , "<h5>Obtained Marks:</h5>" , subj1 , 
+    "<h5>Subject Name:</h5>" , subjName2 , "<h5>Obtained Marks:</h5>" , subj2 , 
+    "<h5>Subject Name:</h5>" , subjName3 , "<h5>Obtained Marks:</h5>" , subj3 , 
+    "<h5>Total:</h5>" , totalNum , "<h5>Average Marks:</h5>" , avr , "<h5>Percentage:</h5>" , perce
+    )
+}
+
+function average(subj1 , subj2 , subj3) {
+  return ((subj1 , subj2 , subj3)/3).toFixed(2)
+
+}
+
+function percentage(subj1 , subj2 , subj3 , total) {
+  return (((subj1 , subj2 , subj3) / total) * 100).toFixed(2)
+  
+}
+
+mainFunction()*/
 
 // QUESTION 5
 // You have learned the function indexOf. Code your own custom
@@ -104,11 +122,34 @@ sidesOfTriangle(a, b ,c)*/
 
 // ANSWER
 
+// let str = "My country name is Pakistan"
+
+// function findIndexOf() {
+//   for (let i = 0 ; i < str.length ; i++){
+//     console.log(str[i].indexOf("P"));
+    
+//   }
+  
+// }
+
+// findIndexOf()
+
 // QUESTION 6
 // Write a function to delete all vowels from a sentence. Assume
 // that the sentence is not more than 25 characters long.
 
 // ANSWER
+
+/*let sentence = "Quick brown fox jumps"
+
+function deleteVowels() {
+  for (i = 0 ; i < sentence.length ; i++){
+    return sentence.replace(/[aeiouAEIOU]/g, '');
+  }
+}
+let result = deleteVowels(sentence);
+
+console.log(result);*/
 
 // QUESTION 7
 // Write a function with switch statement to count the number of
