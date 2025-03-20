@@ -122,17 +122,33 @@ mainFunction()*/
 
 // ANSWER
 
-// let str = "My country name is Pakistan"
+/*let str = prompt("Enter a paragraph")
 
-// function findIndexOf() {
-//   for (let i = 0 ; i < str.length ; i++){
-//     console.log(str[i].indexOf("P"));
-    
-//   }
-  
-// }
+let char = prompt("Enter a character and find the index number")
 
-// findIndexOf()
+let indexNum = "-1"
+
+let checkedIndex = "-1"
+
+function findIndexOf(sentence , character) {
+  for (let i = 0 ; i < sentence.length ; i++){
+    if(sentence[i] == character){
+      indexNum = i
+      break
+    }
+    if(char == checkedIndex)
+      indexNum = i
+  }
+}
+
+findIndexOf(str , char)
+
+if(indexNum !== "-1"){
+  document.write("<h4>Paragraph</h4>", str , "<h4>Index Number of Character:</h4>" , "The index number is " , indexNum)
+}
+else{
+  document.write("<h4>Paragraph</h4>", str , "<h4>Index Number of Character:</h4>" , "Your index number is " , indexNum)
+}*/
 
 // QUESTION 6
 // Write a function to delete all vowels from a sentence. Assume
@@ -158,6 +174,8 @@ console.log(result);*/
 // Such occurrences are ea, ea, ui.
 
 // ANSWER
+
+// let strStatement = "Pleases read this application and give me gratuity"
 
 // QUESTION 8
 // The distance between two cities (in km.) is input through the
