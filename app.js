@@ -175,7 +175,41 @@ console.log(result);*/
 
 // ANSWER
 
-// let strStatement = "Pleases read this application and give me gratuity"
+/*let strStatement = prompt("Enter a Statement or Paragraph and check the vowels").toLowerCase()
+
+let count = 0
+
+let characters = []
+
+function vowelFinder(statement) {
+  for (let i = 0 ; i < statement.length ; i++){
+    let firstCharacter = statement[i]
+    let secondCharacter = statement[i + 1]
+    if (vowelChecker(firstCharacter) && vowelChecker(secondCharacter)) {
+      count++
+      let merged = firstCharacter + secondCharacter
+      characters.push(merged)
+    }
+  }
+}
+
+vowelFinder(strStatement)
+
+function vowelChecker(char) {
+  
+  switch (char) {
+    case "a":
+    case "e":
+    case "i":
+    case "o":
+    case "u":
+      return true
+  default:
+      return false
+  }
+}
+
+document.write("<h4>Statement:</h4>" , strStatement , "<h4>Number of vowels:</h4>" , count , "<h4>Vowels in your Statement:</h4>" , characters)*/
 
 // QUESTION 8
 // The distance between two cities (in km.) is input through the
@@ -223,6 +257,19 @@ distanceInKilometer();*/
 // for fractional part of an hour.
 
 // ANSWER
+
+/*let workingHours = Number(prompt("Enter your overtime hours"))
+
+let overTime , overTimePay
+
+let overTimePerHourPay = 12
+
+if(workingHours > 40){
+  overTime = workingHours - 40
+  overTimePay = overTime * overTimePerHourPay
+  alert("Your overtime pay is " + overTimePay + " PKR")
+}
+else{alert("You need to do work hard")}*/
 
 // QUESTION 10
 // A cashier has currency notes of denominations 10, 50 and
