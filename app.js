@@ -279,3 +279,20 @@ else{alert("You need to do work hard")}*/
 // withdrawer.
 
 // ANSWER
+
+/*let userAmount = 540
+
+let hundredRsNotes = parseInt(userAmount / 100)
+
+userAmount = userAmount - (hundredRsNotes * 100)
+
+let fiftyRsNotes = parseInt(userAmount / 50)
+
+userAmount = userAmount - (fiftyRsNotes * 50)
+
+let tenRsNotes = parseInt(userAmount / 10)
+
+userAmount = userAmount - (tenRsNotes * 10)
+
+document.write("<h1>Amount Withdrawer</h1>" , "<h4>Volume of Hundred Rs Notes:</h4>" , hundredRsNotes , " Currency notes" , 
+  "<h4>Volume of Fifty Rs Notes:</h4>" , fiftyRsNotes , " Currency notes" , "<h4>Volume of Ten Rs Notes:</h4>" , tenRsNotes , " Currency notes")*/
